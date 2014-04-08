@@ -10,6 +10,8 @@
   "dependencies": {
     "angular": "~1.2.16",
     "angular-bootstrap": "~0.10.0",
-    "angular-ui-router": "~0.2.10"
+    "angular-ui-router": "~0.2.10",
+    "underscore": "~1.6.0",
+    "momentjs": "~2.5.1"
   }
 }

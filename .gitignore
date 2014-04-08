@@ -4,3 +4,4 @@ dist/
 vendor/
 node_modules/
 *.pyc
+server/d3rifty/static/
