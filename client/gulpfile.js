@@ -7,8 +7,10 @@ var streamqueue = require("streamqueue");
 
 var ngDepOrder = require("gulp-ng-deporder");
 
+var appName = "newapp";
+
 var paths = {
-    "dist": "../server/d3rifty/static/",
+    "dist": "../server/"+appName+"/static/",
     "vendor": ['vendor/underscore/underscore.js',
         'vendor/angular/angular.min.js',
         'vendor/angular-route/angular-route.min.js',
@@ -52,14 +54,14 @@ gulp.task("scripts", function () {
     stream.queue(gulp.src(paths.templates)
         .pipe(html2js({moduleName: "templates"})));
     return stream.done()
-        .pipe(concat("d3rifty.js"))
+        .pipe(concat(appName+".js"))
         .pipe(gulp.dest(paths.dist + "js/"));
 });
 
 gulp.task("styles", function () {
     gulp.src(paths.styles)
         .pipe(sass())
-        .pipe(concat("d3rifty.css"))
+        .pipe(concat(appName+".css"))
         .pipe(gulp.dest(paths.dist + "css/"));
 });
 
