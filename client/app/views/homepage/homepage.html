@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <title>Newapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="static/css/newapp.css"/>
+</head>
+<body>
+
+<div class="container-liquid">
+
+    <div class="row">
+        <div class="col-md-12" ui-view>
+
+        </div>
+    </div>
+</div>
+    {% if profile %}
+    <script>
+        var userProfile = {{profile|safe}};
+    </script>
+    {% endif %}
+    <script type="text/javascript" src="static/js/vendor.js"></script>
+    <script type="text/javascript" src="static/js/newapp.js"></script>
+</body>
+</html>
