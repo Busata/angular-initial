@@ -1,10 +1,10 @@
 {
-  "name": "D3Rifty",
+  "name": "Newapp",
   "version": "0.0.1",
   "authors": [
-    "Dries De Smet <driesdesmet@gmail.com>"
+    "Your name <yourmail@mail.com>"
   ],
-  "description": "Diablo 3 Rift & Bounty timer",
+  "description": "Your description",
   "license": "MIT",
   "private": true,
   "dependencies": {
