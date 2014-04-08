@@ -1,4 +1,3 @@
-D3Rifty - Time your rifts & bounty runs.
-----------------------------------------
+Initial app layout
 
-Source code for client (HTML5\AngularJS) and server (NodeJS).
+Uses custom gulp plugin, (gulp-ng-deporder), in order to support spreading angular.modules() over several files etc.
