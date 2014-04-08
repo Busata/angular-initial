@@ -1,0 +1,15 @@
+{
+  "name": "D3Rifty",
+  "version": "0.0.1",
+  "authors": [
+    "Dries De Smet <driesdesmet@gmail.com>"
+  ],
+  "description": "Diablo 3 Rift & Bounty timer",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-router": "~0.2.10"
+  }
+}

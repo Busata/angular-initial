@@ -1,0 +1,18 @@
+{
+  "name": "D3Rifty",
+  "version": "0.0.1",
+  "description": "Diablo 3 Rift & Bounty timer",
+  "author": "Dries De Smet",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-concat": "~2.1.7",
+    "gulp-clean": "~0.2.4",
+    "gulp-sass": "~0.7.1",
+    "gulp-ng-html2js": "~0.1.6",
+    "streamqueue": "0.0.5",
+    "gulp-closure-compiler": "~0.1.2",
+    "through2": "~0.4.1",
+    "gulp-util": "~2.2.14"
+  }
+}
