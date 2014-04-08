@@ -1,8 +1,8 @@
 {
-  "name": "D3Rifty",
+  "name": "Newapp",
   "version": "0.0.1",
-  "description": "Diablo 3 Rift & Bounty timer",
-  "author": "Dries De Smet",
+  "description": "New app description",
+  "author": "Your name",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "gulp": "~3.5.5",
